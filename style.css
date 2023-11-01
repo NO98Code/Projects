@@ -1,24 +1,18 @@
 /* styles.css */
 
-* { /* Asterisk is a universal selector - selects all HTML elements on WP */
+* {
+  /* Asterisk is a universal selector - selects all HTML elements on WP */
 
-    margin: 0;              /* margin is the space around elements - eliminates any default margins set by the browser */
-    padding: 0;             /* padding is the space inside an element */
-    box-sizing: border-box; /* box-sizing property defines the width+height of element*/
-
+  margin: 0; /* margin is the space around elements - eliminates any default margins set by the browser */
+  padding: 0; /* padding is the space inside an element */
+  box-sizing: border-box; /* box-sizing property defines the width+height of element*/
 }
 
-.menu-container {
-    color:#fff;
-    background-color: #5995DA; /* Blue */
-    padding: 20px 0;
+.header {
+padding: 48px;
+text-align:center;
+background-color:darkblue;
+color:yellow;
+font-size:30px;
+
 }
-
-.menu {
-    border: 1px solid #fff;
-    width: 900px; 
-}
-
-
-
-  
